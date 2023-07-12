@@ -9,11 +9,23 @@
 
 # TL;DR
 
- * [Developer Docs](docs/en/INDEX.md)
+## filter without worrying about empty arrays
+
+```php
+$filterSafeArray = ArraMethods::filter_array([]);
+$list = MyDataObject::get()->filter($filterSafeArray);
+```
+
+## sort by any id sequence
+
+```php
+$sortByStatement = ArraMethods::create_sort_statement_from_id_array([44,222,434,22,]);
+$sortedList = MyDataObject::get()->sort($sortByStatement);
+
+```
+
 
 ## Documentation
-
-
 
  * [Developer Docs](docs/en/INDEX.md)
  * [User Guide](docs/en/userguide.md)
@@ -67,7 +79,7 @@ We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more de
 
 
 
-You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz).  For exmaple, we can write tests for this module.  
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz).  For example, we can write tests for this module.  
 
 ## Author
 
