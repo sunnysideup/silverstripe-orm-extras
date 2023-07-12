@@ -7,6 +7,8 @@
 [![License](https://poser.pugx.org/sunnysideup/orm-extras/license)](https://packagist.org/packages/sunnysideup/orm-extras)
 [![Monthly Downloads](https://poser.pugx.org/sunnysideup/orm-extras/d/monthly)](https://packagist.org/packages/sunnysideup/orm-extras)
 
+# TL;DR
+<iframe src="https://github.com/sunnysideup/silverstripe-orm-extras/blob/master/docs/en/INDEX.md" height="300"></iframe>
 
 ## Documentation
 
