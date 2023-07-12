@@ -9,7 +9,7 @@
 
 # TL;DR
 
-<iframe src="https://github.com/sunnysideup/silverstripe-orm-extras/blob/master/docs/en/INDEX.md" height="300"></iframe>
+ * [Developer Docs](docs/en/INDEX.md)
 
 ## Documentation
 
