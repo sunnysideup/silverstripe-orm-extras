@@ -20,7 +20,7 @@ $list = MyDataObject::get()->filter($filterSafeArray);
 
 ```php
 $sortByStatement = ArraMethods::create_sort_statement_from_id_array([44,222,434,22,]);
-$sortedList = MyDataObject::get()->sort($sortByStatement);
+$sortedList = MyDataObject::get()->orderBy($sortByStatement);
 
 ```
 
