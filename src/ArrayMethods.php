@@ -18,7 +18,8 @@ class ArrayMethods
         if (! is_array($array)) {
             $array = [];
         }
-        if (0 === count($array)) {
+
+        if ([] === $array) {
             $array = [0 => 0];
         }
 
@@ -39,7 +40,7 @@ class ArrayMethods
         $dataClasses = ClassInfo::dataClassesFor($className);
         $table = DataObject::getSchema()->tableName(array_shift($dataClasses));
         foreach ($ids as $id) {
-            $ifStatement .= ' WHEN "' . $table . $stage . "\".\"ID\" = {$id} THEN {$count}";
+            $ifStatement .= ' WHEN "' . $table . $stage . sprintf('"."ID" = %s THEN %d', $id, $count);
             ++$count;
         }
 
