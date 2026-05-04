@@ -28,12 +28,5 @@
     "psr-4": {
       "Sunnysideup\\OrmExtras\\": "src/"
     }
-  },
-  "yet-to-update": {
-    "sunnysideup/silverstripe-4-5-compatibility": {
-      "section": "require",
-      "current": "^5.0-dev",
-      "reason": "no-compatible-stable-release"
-    }
   }
 }
